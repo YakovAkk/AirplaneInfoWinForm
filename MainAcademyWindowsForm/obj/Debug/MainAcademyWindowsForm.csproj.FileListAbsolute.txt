@@ -1,0 +1,13 @@
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\bin\Debug\MainAcademyWindowsForm.exe.config
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\bin\Debug\MainAcademyWindowsForm.exe
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\bin\Debug\MainAcademyWindowsForm.pdb
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.csproj.AssemblyReference.cache
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.Properties.Resources.resources
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.csproj.GenerateResource.cache
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.exe
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.pdb
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.Form1.resources
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.WelcomeWindow.resources
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.AdminView.resources
+D:\PROGRAMING\Projects\MainAcademyWindowsForm\MainAcademyWindowsForm\obj\Debug\MainAcademyWindowsForm.MainAdminMenu.resources
