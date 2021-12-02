@@ -18,8 +18,9 @@ namespace MainAcademyWindowsForm
         private const string user = "admin";
         private const string pass = "qwerty";
 
-
-
+        ///////////////////
+        // Main Function //
+        ///////////////////
         public AdminController(Form scene) : base(scene)
         {
             _scene = scene;
@@ -41,11 +42,10 @@ namespace MainAcademyWindowsForm
             _adminView.Clear();
             RemoveChild(_adminView.GetScene);
         }
-        private void BackFromMainAdminMenu()
-        {
-            RemoveChild(_adminMainView.GetScene);
-            AddChild(_adminView.GetScene);
-        }
+
+        ////////////////
+        // Admin View //
+        ////////////////
         private void OkHandler(string u, string p)
         {
             if (u == user && p == pass)
@@ -62,5 +62,17 @@ namespace MainAcademyWindowsForm
         {
             Back();
         }
+
+        /////////////////////
+        // Admin Main Menu //
+        /////////////////////
+
+        private void BackFromMainAdminMenu()
+        {
+            RemoveChild(_adminMainView.GetScene);
+            AddChild(_adminView.GetScene);
+        }
+      
+        
     }
 }

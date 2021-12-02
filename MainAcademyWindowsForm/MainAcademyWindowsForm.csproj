@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ControllerBase.cs" />
+    <Compile Include="Controllers\FirstStationController.cs" />
+    <Compile Include="Controllers\SecondStationController.cs" />
     <Compile Include="Views\AdminView.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,8 +62,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FirstStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FirstStation.Designer.cs">
+      <DependentUpon>FirstStation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IAdminView.cs" />
+    <Compile Include="Views\IFirstStation.cs" />
     <Compile Include="Views\IMainAdminMenu.cs" />
+    <Compile Include="Views\ISecondStation.cs" />
     <Compile Include="Views\IWellcomeView.cs" />
     <Compile Include="Views\MainAdminMenu.cs">
       <SubType>UserControl</SubType>
@@ -72,6 +82,12 @@
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\SecondStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SecondStation.Designer.cs">
+      <DependentUpon>SecondStation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\WelcomeWindow.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FirstStation.resx">
+      <DependentUpon>FirstStation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MainAdminMenu.resx">
       <DependentUpon>MainAdminMenu.cs</DependentUpon>
@@ -96,6 +115,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\SecondStation.resx">
+      <DependentUpon>SecondStation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\WelcomeWindow.resx">
       <DependentUpon>WelcomeWindow.cs</DependentUpon>
     </EmbeddedResource>
